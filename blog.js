@@ -32,7 +32,7 @@ function addBlog(event) {
 function renderBlog() {
   let contentContainer = document.getElementById("contents");
 
-  contentContainer.innerHTML = "";
+  contentContainer.innerHTML = '';
 
   for (i = 0; i < blogs.length; i++) {
     contentContainer.innerHTML += `
